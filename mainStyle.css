@@ -1,0 +1,64 @@
+body{
+    font-size: 11px;
+    text-align: center;
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", sans-serif;
+    color: white;
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    display: grid; /* Use grid layout for the body */
+    place-items: center; /* Center grid items both vertically and horizontally */
+}
+
+.grid-container{
+    background-color: hsl(0, 0%, 12%);
+    width: 400px;
+    height: 600px;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    display: grid;
+    place-items: center; /* centers grid items in both axes */
+}
+
+.grid-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto; /* allows the grid item to center itself */
+}
+
+img {
+    border-radius: 50%; /* Makes the image circular */
+    width: 125px;       /* Ensure width and height are equal */
+    height: 125px;      /* Ensure width and height are equal */
+    object-fit: cover; 
+}
+
+h1 {
+    font-size: 35px;
+    margin-top: -10px;
+}
+
+h3 {
+    margin-top: -40px;
+    color: hsl(75, 94%, 57%);
+    font-size: 20px;
+}
+
+button {
+    background-color: hsl(0, 0%, 20%);
+    padding: 10px 50px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: none;
+    width: 300px;
+}
+
+button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
